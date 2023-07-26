@@ -10,37 +10,6 @@
  <!-- Main Header -->
     <header class="main-header header-style-one">
 
-        <!-- Header Top -->
-        <div class="header-top">
-            <div class="auto-container">
-                <div class="inner-container">
-                    <div class="left-column">
-                        <ul class="social-icon">
-                            <li><a target="blank" href="<?php echo $setting['facebook']; ?>"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a target="blank" href="<?php echo $setting['twitter']; ?>"><i class="fab fa-twitter"></i></a></li>
-                            <li><a target="blank" href="<?php echo $setting['instagram']; ?>"><i class="fab fa-instagram"></i></a></li>
-                            <li><a target="blank" href="<?php echo $setting['youtube']; ?>"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                    <div class="right-column">
-                        <div class="location">
-                            <span class="flaticon-cursor"></span>
-                            <form action="#" class="location-switcher">
-                                <select class="selectpicker">
-                                    <option value="1">USA</option>
-                                    <option value="2">India</option>
-                                    <option value="3">China</option>
-                                    
-                                </select>
-                            </form>
-                        </div>
-                        <div class="phone-number"><i class="flaticon-calling"></i><a href="tel:<?php  echo $setting['phone']; ?>"></a><?php  echo $setting['phone']; ?></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Header Upper -->
         <div class="header-upper">
             <div class="auto-container">
@@ -59,29 +28,13 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.php">Home</a></li>
-                                         
-                                        
-                                        <li class="dropdown"><a href="about.php">About Us</a></li>
-                                       
-                                        
-                                        <li class="dropdown"><a href="service.php">Services</a>
-                                        <li class="dropdown"><a href="faq.php">FAQ</a>
-                                       
-                                        </li>
-                                       
-                                        <li class="dropdown"><a href="blog.php">News</a>
-                                          
-                                        </li>
-                                        <li><a href="contact.php">Contact Us</a></li>
-                                         <div class="language">
-                                    
-                                    <form action="#" class="language-switcher">
-                                       
-                                    </form>
-                                </div>
+                                        <li class="dropdown"><a href="index.php">Home</a></li>                                                                             
+                                        <li class="dropdown"><a href="service.php">Services</a>                                      
+                                        <li class="dropdown"><a href="contact.php">Contact Us</a></li>
+                                        <li class="dropdown"><a href="about.php">Appointment</a></li>
+                                        <li class="dropdown"><a href="about.php">More</a></li>                                         
                                     </ul>
-                                </div>
+                                </div>           
                             </nav>
                         </div>
                     
